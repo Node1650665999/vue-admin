@@ -10,7 +10,11 @@ import './assets/css/icon.css';
 import './components/common/directives';
 import 'babel-polyfill';
 
+//插件安装
+import plugin from "./components/common/plugin";
+
 Vue.config.productionTip = false;
+Vue.use(plugin);
 Vue.use(VueI18n);
 Vue.use(ElementUI, {
     size: 'small'

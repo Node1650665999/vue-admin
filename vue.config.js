@@ -1,5 +1,4 @@
 module.exports = {
-    baseUrl: './',
     assetsDir: 'static',
     productionSourceMap: false,
     // devServer: {
@@ -12,5 +11,11 @@ module.exports = {
     //             }
     //         }
     //     }
-    // }
+    // }npm 
+   
+    devServer: {
+      host:'localhost',
+      port:'9001'
+    },
+    outputDir: process.env.outputDir,
 }

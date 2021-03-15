@@ -5,13 +5,19 @@
   "scripts": {
     "dev": "npm run serve",
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "test": "vue-cli-service build --mode test"
   },
   "dependencies": {
     "axios": "^0.18.0",
     "babel-polyfill": "^6.26.0",
+    "dotenv": "^8.2.0",
     "element-ui": "^2.11.0",
+    "js-md5": "^0.7.3",
+    "less": "^3.12.2",
+    "less-loader": "^7.0.2",
     "mavon-editor": "^2.6.17",
+    "qiniu-js": "^3.1.2",
     "vue": "^2.6.10",
     "vue-cropperjs": "^3.0.0",
     "vue-i18n": "^8.10.0",
@@ -22,7 +28,7 @@
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.9.0",
-    "@vue/cli-service": "^3.9.0",
+    "@vue/cli-service": "^4.5.8",
     "vue-template-compiler": "^2.6.10"
   }
 }
